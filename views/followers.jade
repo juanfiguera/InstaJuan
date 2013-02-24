@@ -1,0 +1,7 @@
+extends layout 
+
+block content 
+	h1 Followers
+	each follower in followers
+		- if (follower.profile_picture)
+		img(src="#{follower.profile_picture}", title="#{follower.username}")
