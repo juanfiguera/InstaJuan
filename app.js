@@ -2,7 +2,7 @@
 /**
  * Module dependencies.
  */
-
+*/Node is Awesome!/*
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
